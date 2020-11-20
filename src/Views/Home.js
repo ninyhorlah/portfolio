@@ -36,7 +36,7 @@ const Home = () => {
 
             <div className="skills">
                 
-                <h2>Skills</h2>
+                <h2>My Skills</h2>
                 <div className="under"></div>
 
                 <div className='skillInfo'>

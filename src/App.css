@@ -7,6 +7,7 @@
 body {
   background: #183b56;
   height: 100%;
+  overflow-x: hidden;
 }
 html {
   height: 100%;
@@ -195,6 +196,8 @@ img {
   justify-content: space-between;
   padding: 30px;
   clip-path: ellipse(100% 100% at 50% 100%);
+  position: relative;
+  bottom: 0;
 }
 .footer a {
   text-decoration: none;
@@ -307,8 +310,11 @@ img {
 }
 
 @media screen and (max-width: 968px) {
+  body {
+    overflow-x: hidden;
+  }
   .LeadText {
-    padding-top: 60px;
+    padding-top: 80px;
   }
   .LeadText h1 {
     font-size: 20px;
@@ -369,6 +375,20 @@ img {
     color: #faad13;
   }
 
+  .about p {
+    padding: 20px;
+  }
+
+  .serviceInfo {
+    padding: 10px;
+  }
+  .serviceInfo div {
+    padding: 8px;
+  }
+  .serviceInfo div h4 {
+    padding: 5px;
+  }
+
   img {
     width: 100%;
   }
@@ -407,9 +427,5 @@ img {
     background-color: #a3c9fd;
     border-radius: 50%;
     padding: 10px 13px;
-  }
-
-  .serviceInfo div {
-    padding: 30px;
   }
 }
