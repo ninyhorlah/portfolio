@@ -9,7 +9,8 @@ let Project = () => {
         eventPage: 'https://ninyhorlah.github.io/event-page/',
         maintenancePage: 'https://ninyhorlah.github.io/Tscoy/',
         photography: 'https://ninyhorlah.github.io/Photography-portfolio/',
-        weddingPlanner: 'https://ninyhorlah.github.io/wedding-planner/'
+        weddingPlanner: 'https://ninyhorlah.github.io/wedding-planner/',
+        orderSummary: 'https://restaurant-assessment.netlify.app/'
     }
     return(
         <div className='wrapperBody'>
@@ -65,6 +66,17 @@ let Project = () => {
                     <div className="Text">
                         <h6>A webpage that entails the details of how a wedding is planned</h6>
                         <a href={projects.weddingPlanner} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLink}/> Live Link</a>
+                    </div>
+                </div>
+            </div>
+            <div className='Wrapper'>
+                <img src="/assets/orderSummary.png" alt=""/>
+                <h4>Customer Order Summary Page</h4>
+
+                <div className="Overlay">
+                    <div className="Text">
+                        <h6>A webpage that displays the summary of a customer's order <br/>(API + REACT)</h6>
+                        <a href={projects.orderSummary} target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLink}/> Live Link</a>
                     </div>
                 </div>
             </div>
